@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="using.testng.CreateOrg"/>
+      <class name="using.testng.CreateContactWithSupportDate"/>
+      <class name="using.testng.CreateOrgWithIndustry"/>
+      <class name="using.testng.CreateOrgWithPhone"/>
+      <class name="using.testng.CreateContactTest"/>
+      <class name="using.testng.CreateProductAndDateTest"/>
+      <class name="using.testng.CreateContactWithOrgTest"/>
+      <class name="using.testng.CreateProduct"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
